@@ -1,0 +1,1135 @@
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <!--很奇怪吗。-->
+    <link rel="icon" href="favicon.gif" type="image/gif">
+    <title>Derolex Elta</title>
+  </head>
+  <body>
+    <!--头-->
+  <div id="header" style="background-color:#C8C8C8;clear:both;text-align:center;">
+    <h1><a href="https://derolex-elta.pages.dev">Derolex Elta</a></h1>
+    <a href="https://derolex-elta.pages.dev/feed.xml" title=" RSS feed" >
+      <img src="http://www.runoob.com/images/rss.gif" width="36" height="14">
+    </a>
+    <!--正文-->
+  </div>
+    <style type="text/css">
+		
+[data-color-mode*='light'], [data-color-mode*='light'] body, .markdown-body[theme*='light'] {
+  --color-prettylights-syntax-comment: #6e7781;
+  --color-prettylights-syntax-constant: #0550ae;
+  --color-prettylights-syntax-entity: #8250df;
+  --color-prettylights-syntax-storage-modifier-import: #24292f;
+  --color-prettylights-syntax-entity-tag: #116329;
+  --color-prettylights-syntax-keyword: #cf222e;
+  --color-prettylights-syntax-string: #0a3069;
+  --color-prettylights-syntax-variable: #953800;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+  --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+  --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+  --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+  --color-prettylights-syntax-carriage-return-bg: #cf222e;
+  --color-prettylights-syntax-string-regexp: #116329;
+  --color-prettylights-syntax-markup-list: #3b2300;
+  --color-prettylights-syntax-markup-heading: #0550ae;
+  --color-prettylights-syntax-markup-italic: #24292f;
+  --color-prettylights-syntax-markup-bold: #24292f;
+  --color-prettylights-syntax-markup-deleted-text: #82071e;
+  --color-prettylights-syntax-markup-deleted-bg: #FFEBE9;
+  --color-prettylights-syntax-markup-inserted-text: #116329;
+  --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+  --color-prettylights-syntax-markup-changed-text: #953800;
+  --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+  --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+  --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+  --color-prettylights-syntax-meta-diff-range: #8250df;
+  --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+  --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+  --color-fg-default: #24292f;
+  --color-fg-muted: #57606a;
+  --color-fg-subtle: #6e7781;
+  --color-canvas-default: #ffffff;
+  --color-canvas-subtle: #f6f8fa;
+  --color-border-default: #d0d7de;
+  --color-border-muted: hsla(210,18%,87%,1);
+  --color-neutral-muted: rgba(175,184,193,0.2);
+  --color-accent-fg: #0969da;
+  --color-accent-emphasis: #0969da;
+  --color-attention-subtle: #fff8c5;
+  --color-danger-fg: #cf222e;
+}
+[data-color-mode*='dark'], [data-color-mode*='dark'] body, .markdown-body[theme*='dark'] {
+  --color-prettylights-syntax-comment: #8b949e;
+  --color-prettylights-syntax-constant: #79c0ff;
+  --color-prettylights-syntax-entity: #d2a8ff;
+  --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+  --color-prettylights-syntax-entity-tag: #7ee787;
+  --color-prettylights-syntax-keyword: #ff7b72;
+  --color-prettylights-syntax-string: #a5d6ff;
+  --color-prettylights-syntax-variable: #ffa657;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+  --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+  --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+  --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+  --color-prettylights-syntax-carriage-return-bg: #b62324;
+  --color-prettylights-syntax-string-regexp: #7ee787;
+  --color-prettylights-syntax-markup-list: #f2cc60;
+  --color-prettylights-syntax-markup-heading: #1f6feb;
+  --color-prettylights-syntax-markup-italic: #c9d1d9;
+  --color-prettylights-syntax-markup-bold: #c9d1d9;
+  --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+  --color-prettylights-syntax-markup-deleted-bg: #67060c;
+  --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+  --color-prettylights-syntax-markup-inserted-bg: #033a16;
+  --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+  --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+  --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+  --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+  --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+  --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+  --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+  --color-fg-default: #c9d1d9;
+  --color-fg-muted: #8b949e;
+  --color-fg-subtle: #484f58;
+  --color-canvas-default: #0d1117;
+  --color-canvas-subtle: #161b22;
+  --color-border-default: #30363d;
+  --color-border-muted: #21262d;
+  --color-neutral-muted: rgba(110,118,129,0.4);
+  --color-accent-fg: #58a6ff;
+  --color-accent-emphasis: #1f6feb;
+  --color-attention-subtle: rgba(187,128,9,0.15);
+  --color-danger-fg: #f85149;
+}
+
+.markdown-body {
+  display: block;
+  -webkit-text-size-adjust: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-default);
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body mark {
+  background-color: var(--color-attention-subtle);
+  color: var(--color-text-primary);
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--color-canvas-default);
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em 40px;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+}
+
+.markdown-body [type=button]::-moz-focus-inner,
+.markdown-body [type=reset]::-moz-focus-inner,
+.markdown-body [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.markdown-body [type=button]:-moz-focusring,
+.markdown-body [type=reset]:-moz-focusring,
+.markdown-body [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-subtle);
+  border: solid 1px var(--color-neutral-muted);
+  border-bottom-color: var(--color-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body h3 {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: 600;
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: 600;
+  font-size: .85em;
+  color: var(--color-fg-muted);
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body ::placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body .token.comment, .markdown-body .token.prolog, .markdown-body .token.doctype, .markdown-body .token.cdata {
+  color: var(--color-prettylights-syntax-comment);
+}
+.markdown-body .token.namespace { opacity: 0.7; }
+.markdown-body .token.tag, .markdown-body .token.selector, .markdown-body .token.constant, .markdown-body .token.symbol, .markdown-body .token.deleted {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+.markdown-body .token.maybe-class-name {
+  color: var(--color-prettylights-syntax-variable);
+}
+.markdown-body .token.property-access, .markdown-body .token.operator, .markdown-body .token.boolean, .markdown-body .token.number, .markdown-body .token.selector .markdown-body .token.class, .markdown-body .token.attr-name, .markdown-body .token.string, .markdown-body .token.char, .markdown-body .token.builtin {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.markdown-body .token.deleted {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+}
+.markdown-body .token.property {
+  color: var(--color-prettylights-syntax-constant);
+}
+.markdown-body .token.punctuation {
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+.markdown-body .token.function {
+  color: var(--color-prettylights-syntax-entity);
+}
+.markdown-body .code-line .token.deleted {
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+.markdown-body .token.inserted {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+}
+.markdown-body .code-line .token.inserted {
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.markdown-body .token.variable {
+  color: var(--color-prettylights-syntax-constant);
+}
+.markdown-body .token.entity, .markdown-body .token.url, .language-css .markdown-body .token.string, .style .markdown-body .token.string {
+  color: var(--color-prettylights-syntax-string);
+}
+.markdown-body .token.color, .markdown-body .token.atrule, .markdown-body .token.attr-value, .markdown-body .token.function, .markdown-body .token.class-name {
+  color: var(--color-prettylights-syntax-string);
+}
+.markdown-body .token.rule, .markdown-body .token.regex, .markdown-body .token.important, .markdown-body .token.keyword {
+  color: var(--color-prettylights-syntax-keyword);
+}
+.markdown-body .token.coord {
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+.markdown-body .token.important, .markdown-body .token.bold { font-weight: bold; }
+.markdown-body .token.italic { font-style: italic; }
+.markdown-body .token.entity { cursor: help; }
+
+.markdown-body [data-catalyst] {
+  display: block;
+}
+
+.markdown-body g-emoji {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: 400;
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: var(--color-danger-fg);
+}
+
+.markdown-body a.anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.markdown-body a.anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body sup>a::before {
+  content: "[";
+}
+
+.markdown-body sup>a::after {
+  content: "]";
+}
+
+.markdown-body .octicon-video {
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+  display: block;
+}
+
+.markdown-body .octicon-video summary {
+    border-bottom: 1px solid #d0d7de !important;
+    padding: 8px 16px !important;
+    cursor: pointer;
+}
+
+.markdown-body .octicon-video > video {
+    display: block !important;
+    max-width: 100% !important;
+    padding: 2px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+.markdown-body details.octicon-video:not([open])>*:not(summary) {
+    display: none !important;
+}
+
+.markdown-body details.octicon-video:not([open]) > summary {
+    border-bottom: 0 !important;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body ol[type=a] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type=i] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+.markdown-body table img {
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--color-fg-default);
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: var(--color-neutral-muted);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body pre {
+  position: relative;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre > code {
+  padding: 16px;
+  overflow: auto;
+  display: block;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--color-canvas-default);
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: 600;
+  background: var(--color-canvas-subtle);
+  border-top: 0;
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.markdown-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--color-accent-emphasis);
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: var(--color-fg-default);
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: 400;
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox,
+.markdown-body input[type="checkbox"] {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox,
+.markdown-body .contains-task-list:dir(rtl) input[type="checkbox"] {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+body {padding: 2em;}
+	</style>
+  </head>
+  <body>
+  <div class="markdown-body">
+    <ul>
+<li>
+<p><strong>天下大势，一手掌握</strong></p>
+<ul>
+<li><a href="https://world.people.com.cn/n1/2025/0930/c1002-40575660.html">联合国成立80周年：共同捍卫真正的多边主义</a></li>
+<li><a href="https://world.huanqiu.com/article/4Oc0uZGXv4e">美国政府“停摆”持续，白宫官员警告：谈不下去就大规模裁员</a></li>
+<li><a href="https://health.huanqiu.com/article/4OX2gwMOa5j">"已震荡供应格局，将造成药物短缺"，美国药物关税令各方不安</a></li>
+</ul>
+</li>
+<li>
+<p><strong>湖内要闻，我们一直都在</strong></p>
+<ul>
+<li>他以身试险，为我们带来了这个...</li>
+</ul>
+</li>
+<li>
+<p><strong>广告区</strong></p>
+<blockquote>
+<p>讲文明，树新风。——DerolexElta（宣）</p>
+</blockquote>
+<blockquote>
+<h2>看新闻 追时事</h2>
+<p>DerolexTV 你的第一选择<br>
+在这里 你可以收看到SMG（上海广播电视台）5档新闻节目</p>
+<h4>不只是转播上海广播电视台</h4>
+<p>尊重言论自由及各类群发，合规广告（仅在DerolexTV官方群生效，假的全员群不生效广告制度）<br>
+收视方式：<strong>加入“假的全员群”，在“假的全员群”内点击上方跳舞的线，加入DerolexTV房间</strong></p>
+<h2><a href="https://yhfx.jwznb.com/share?key=e733gq1fc7a9&amp;ts=1749869042">快加入我们吧！</a></h2>
+<h3><a href="yunhu://post-detail?id=1074">云湖群聊推荐</a></h3>
+<h3><a href="https://yhfx.jwznb.com/share?key=8gWh79to416H&amp;ts=1752846667" title="测试......">测试......</a><a href="https://yhfx.jwznb.com/share?key=IbbQAFxrH8cU&amp;ts=1759713323">DerolexTV报纸分社</a></h3>
+<h1><a href="https://yhfx.jwznb.com/share?key=VI34JUoMXSBx&amp;ts=1753027688">假的全员群（优先加入）</a></h1>
+<h1>?</h1>
+<p>01010111 01100101 01101100 01100011 01101111 01101101 01100101<br>
+（图片加载中）<br>
+<a href="https://ts1.tc.mm.bing.net/th/id/R-C.9b429b608a00904b89a47ed7af9dbda5?rik=VrAmMHk4KyD2UA&amp;riu=http%3a%2f%2fwww.kuaipng.com%2fUploads%2fpic%2fb%2f2022%2f11-03%2f132560%2fbeijing_pic_132560_1200_441.25.jpg&amp;ehk=ry3ZGMpCKPA4zcLf0i4a4Xh4%2fHyKAHNAxCJQjlq6lhk%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0"></a>
+▲<em>这是一个错误。当意义被过度使用，我在这里存放无用的思想。一些碎片，几段回声。</em><br>
+(点击访问《云湖摸鱼报》)[<a href="https://www.yhchat.com/c/p/852">https://www.yhchat.com/c/p/852</a>]<br>
+我们打赌你看不懂这个广告。（广告由AI生成）</p>
+</blockquote>
+<blockquote>
+<p>云诺电视传媒有限公司是铭东市首家民营广播电视机构，由原三阳市云诺电视有限公司迁移改名而来，拥有六余年的播出历史。现有 4 条地面电视频道、1 条直播频道和在线流媒体服务 NUOTV+。其中 NUOTV+ 的订阅量居全市首位。云诺电视也是《广播电视异常信号滤波设备》（T/MBC 0002）团体标准制修订起草单位，拥有先进的红波预防和过滤方面技术，是明安里市特殊时期广播电视授权机构之一。收看云诺电视旗下频道，请使用万合有线或 NUOTV+。</p>
+</blockquote>
+</li>
+</ul>
+<h1>国际新闻（来源：人民日报，环球日报）</h1>
+<h4>联合国成立80周年：共同捍卫真正的多边主义</h4>
+<p>今年是世界反法西斯战争胜利和联合国成立80周年。随着世界百年变局加速演进，如何完善全球治理、践行真正的多边主义成为各方关注焦点。专家表示，联合国在全球治理中发挥着不可替代的重要作用，各方应重申对多边主义以及联合国宪章宗旨和原则的承诺。中方提出的四大全球倡议为建设一个更加公正合理的全球治理体系贡献中国智慧、指引正确方向。</p>
+<p>“<strong>联合国是第二次世界大战后理想与现实相结合的产物，它在废墟上建立，是现行国际秩序的重要基石，在全球治理体系中具有不可替代的地位，且将长期处于国际斗争的核心。</strong>”上海国际问题研究院全球治理研究所副所长毛瑞鹏在接受人民网记者采访时表示，联合国是维护世界完整性的关键机构，联合国宪章宗旨原则奠定了国际关系基本准则。他指出，<strong>联合国通过国际规范深刻影响国际社会的认知，为世界发展提供了确定性，也为促进人类进步事业作出重要贡献，其工作成效直接关系到世界的发展。</strong></p>
+<h4>美国政府“停摆”持续，白宫官员警告：谈不下去就大规模裁员</h4>
+<p>据路透社报道，白宫经济顾问凯文·哈西特当地时间10月5日表示，若美国总统特朗普认定与国会民主党人就<strong>结束政府部分“停摆”局面的谈判完全没有进展</strong>，美政府将开始对联邦雇员实施大规模裁员。</p>
+<p>受民主党和共和党在医保福利支出等问题上僵持不下等因素影响，美国参议院9月30日晚<strong>未能在政府资金耗尽前通过新的临时拨款法案</strong>。当地时间10月1日0时，美国联邦政府<strong>时隔近七年再度“停摆”</strong>。数十万联邦雇员将<strong>被迫无薪休假，部分公共服务或暂停、延迟，经济数据发布将受到影响。<strong>此前，美国两党因</strong>医保福利</strong>方面分歧，<strong>未能就新的临时拨款法案达成一致</strong>。白宫新闻秘书莱维特在10月1日的白宫记者会上表示，“裁员迫在眉睫”。</p>
+<h4>"已震荡供应格局，将造成药物短缺"，美国药物关税令各方不安</h4>
+<p>《国会山报》称，根据目前公布的内容，**自10月1日起，进口品牌药或专利药将被征收100%的关税。**不过，如果制药企业在美国境内已开工建设或正在建设新的生产厂房，则可豁免。问题在于，**目前并不清楚有多少企业能满足这一条件。**过去几年，特朗普政府的压力确实迫使不少制药巨头承诺在美投资数十亿美元。**值得注意的是，仿制药被排除在此次关税之外，而它们占据了美国处方药的绝大多数份额。**有分析认为，<strong>此举或是白宫担忧关税引发美国国内医疗市场的供应混乱。</strong></p>
+<p>尽管印度仿制药制造商目前没有被白宫所针对，但印度高级官员认为，<strong>未来美国关税的范围可能扩大到复杂仿制药、生物仿制药和其他先进制剂。</strong>《印度时报》9月27日报道称，此举正值美国政府根据《美国贸易扩展法》第232条展开调查之际，**该调查旨在评估药品进口是否构成“国家安全风险”。**预计最终决定将于明年初作出。安永帕特农公司国家生命科学主管苏雷什·苏布拉马尼亚表示，<strong>如果关税扩大化，印度主要制药公司将面临困境。</strong></p>
+<h1>本月云湖要闻</h1>
+<h4><a href="https://www.yhchat.com/c/p/31881">他以身试险，为我们带来了这个...</a></h4>
+<p>调查人员Fts以身试险，向大家呈现出了月抛用户的全貌。<br>
+本报对Fts的文章进行了分析，最后提炼出以下几点：</p>
+<ul>
+<li>这是一种精心策划的“杀猪盘”类诈骗。</li>
+<li>月抛用户并非有意破坏云湖生态。</li>
+</ul>
+<p>“我一开始是很积极让Feng改的，现在我的感受呢，跟见证时面对社会问题一样，充满了无力感。” 在记者问到Feng对于此事“睁一只眼闭一只眼”的不作为态度的看法时，Fts这么说。他还表示，要采取正确方法管制，全面管制，充分管制，将管制经验与云湖具体实际相结合，主动破局、准确布局、推动变局，这样才可以正确的保护云湖生态。</p>
+<h1>新闻看完了，来点别的吧</h1>
+<h2>欢乐地带</h2>
+<ul>
+<li>喜欢</li>
+</ul>
+<blockquote>
+<p>初中时，我喜欢一个女生，那天我正在玩手机，突然收到她的信息：“明天礼拜六我们去公园吧！ ”<br>
+呵呵，像我这么正直的人，果断回复：“我同桌那么喜欢你，你竟然这样，唉！ ”之后，我默默的把她拉入黑名单，再之后，我把手机还给了同桌。</p>
+</blockquote>
+<ul>
+<li>报送</li>
+</ul>
+<blockquote>
+<p>说起来跟北京的缘分也是奇妙，高考那年北大给了我们学校一个保送名额，然而我并没有选择去北大，一方面是我不太喜欢北京的气候，另一方面被保送的那个人不是我。</p>
+</blockquote>
+<ul>
+<li>西瓜</li>
+</ul>
+<blockquote>
+<p>中午，到食堂买饭归来，我右手拿饭盆，左手拿半个西瓜，不巧碰到一个哥们，见到我说道：“现在几点了？”我一看表，西瓜扣在了地上。</p>
+</blockquote>
+<ul>
+<li>寡妇</li>
+</ul>
+<blockquote>
+<p>老师：“小东，皇帝自称为什么？”<br>
+小东：“寡人。”小东毫不犹豫地回答。<br>
+老师：“那么皇后呢？”<br>
+小青东：“皇后……是……皇后……”小东想了好久，突然，灵机一动回答道：“皇后自称寡妇。”</p>
+</blockquote>
+<ul>
+<li>钓鱼</li>
+</ul>
+<blockquote>
+<p>一个金发美女决定去冰湖钓鱼，她来到冰上，把小凳子拿出来，把钓鱼的用具都摆出来，然后准备在冰上开一个洞钓鱼，这时候一个声音传过来：“冰下面没有鱼！！”<br>
+美女呆了一下，总算反应过来，然后向前走了几米，又准备开个洞钓鱼，这时那个声音又响起来：“冰下面没有鱼！！”<br>
+美女抬起头来说：“上帝啊，是您吗？？？”<br>
+那个声音回答道：“二货，我不是上帝，我是溜冰场负责人！”</p>
+</blockquote>
+<h2>树洞！我们的话！</h2>
+<ul>
+<li>酸糖味B84F2246把头伸进树洞，ta说：</li>
+</ul>
+<blockquote>
+<p>你说我去学校会不会有一个1米6体重50公斤，平时看似高冷实则很温柔还带点傲娇属性，假期喜欢穿短裙过膝袜，爱学习爱看动漫爱玩cos，喜欢了解我喜欢什么角色，温柔体贴，情绪又稳定的，少女感爆棚，又会打游戏，事事有回应的，控制欲不强，恋爱脑，反差大，分享欲满满，然后还巨有钱会带我一起去看漫展，一边约会一边看我打游戏的小学妹，突然跑到我面前强忍着内心的激动跟我说：安达八嘎？你到底要什么时候才能明白我的心意啊!请和我交往吧学长！</p>
+</blockquote>
+<ul>
+<li>Fayeyu把头伸进树洞，ta说：</li>
+</ul>
+<blockquote>
+<p>这真的很诡异你知道吗。</p>
+</blockquote>
+<ul>
+<li>Rabbit把头伸进树洞，ta说：</li>
+</ul>
+<blockquote>
+<p>有的兄弟，有的<br>
+极致的韧性——杨戬<br>
+极致的真伤——吕布<br>
+极致的控制——达摩<br>
+极致的减速——夏洛特<br>
+极致的支援——关羽<br>
+极致的手法——元歌<br>
+极致的爆发——李信<br>
+极致的免伤——蒙恬<br>
+极致的台词——司空震<br>
+这么强的英雄当然不止一个了，这些都是当前版本tO.5级别的强势英雄，掌握一到两个牢九门英雄的话，上个荣耀百星小国标那都是没有问题的。如果你能掌握一半以上的牢九门英雄的话，那你打个巅峰前百前十那也相当轻松。要像主播一样九位英雄全部熟练度拉满那你可以直接去登上KPL职业比赛对抗路的赛场，直接去打职业首发了兄弟[怒]</p>
+</blockquote>
+<ul>
+<li>oikl.d把头伸进树洞，ta说：</li>
+</ul>
+<blockquote>
+<p>我是oikl.d。</p>
+</blockquote>
+    </div>
+    <!--脚-->
+    <div id="footer" style="background-color:#C8C8C8;clear:both;text-align:center;">
+      <a href="http://www.feedvalidator.org/check.cgi?url=https%3A//derolex-elta.pages.dev/feed.xml"><img src="https://www.feedvalidator.org/images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+    </div>
+
