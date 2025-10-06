@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Derolex Elta</title>
+  <link>https://derolex-elta.pages.dev/</link>
+  <description>用事实来说话，以实事为目标——我们是Derolex Elta。</description>
+  <item>
+    <title>测试</title>
+    <link>https://derolex-elta.pages.dev/</link>
+    <description>测试feed中</description>
+  </item>
+</channel>
+
+</rss>
